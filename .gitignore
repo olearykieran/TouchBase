@@ -32,3 +32,21 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# environment files
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+supabase/.env*
+supabase/.env.local
+
+# OS generated files
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
